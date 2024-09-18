@@ -1,0 +1,27 @@
+#vaadinLoginOverlayWrapper {
+    z-index: 0 !important;
+}
+
+#vaadinLoginOverlayWrapper section[part="card"] {
+    width: 30rem;
+}
+
+#vaadinLoginOverlayWrapper::part(content) {
+    opacity: 0.85;
+}
+
+#vaadinLoginOverlayWrapper::part(backdrop) {
+    background: url("https://stalkuat.hanzo.finance/static/image/background_login.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+}
+
+#vaadinLoginOverlayWrapper::part(brand) {
+    min-height: fit-content;
+    background-color: var(--vick-primary) !important;
+}
+
+#vaadinLoginForm vaadin-button[slot="submit"] {
+    background-color: var(--vick-primary) !important;
+}

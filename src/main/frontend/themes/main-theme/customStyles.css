@@ -1,0 +1,53 @@
+:root {
+  --vick-primary: #FF9500;
+  --vick-secondary: #251F9B;
+}
+
+.vick-primary {
+    background-color: var(--vick-primary) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.vick-light-primary {
+    background-color: #fff !important;
+    border-color: var(--vick-primary) !important;
+    color: var(--vick-primary) !important;
+}
+
+.vick-secondary {
+    background-color: var(--vick-secondary) !important;
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.vick-light-secondary {
+    background-color: #fff !important;
+    border-color: var(--vick-secondary) !important;
+    color: var(--vick-secondary) !important;
+}
+
+.has-text-primary {
+    color: var(--vick-primary) !important;
+}
+
+.has-text-secondary {
+    color: var(--vick-secondary) !important;
+}
+
+.has-background-primary {
+    background-color: var(--vick-primary) !important;
+}
+
+.has-background-secondary {
+    background-color: var(--vick-secondary) !important;
+}
+
+.has-text-white {
+    color: #fff !important;
+}
+
+.has-text-grey {
+    color: #777777 !important;
+}
+
